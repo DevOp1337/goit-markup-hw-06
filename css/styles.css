@@ -513,7 +513,6 @@ margin-right: 30px;
 .team-list .team-icon {
 
     fill: var(--icon-color);
-
 }
 
 .team-list .social-item:last-child{
@@ -988,6 +987,16 @@ margin-right: 30px;
     background-color: #fff;
     cursor: pointer;
 
+    
+
+}
+.close-modal{
+    transition: fill 250ms var(--animation-cubic);
+}
+
+.modal-btn:hover .close-modal,
+.modal-btn:focus .close-modal{
+    fill: var(--accent-color);
 }
 
 .form-field{
